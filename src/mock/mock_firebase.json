@@ -1,0 +1,48 @@
+{
+  "clinicas": {
+    "clinica_icarai": {
+      "nome": "Clínica Icaraí",
+      "telefone": "5521988888888",
+      "limite_mensal": 1000,
+      "mensagens_usadas": 432,
+      "chats": {
+        "5511987654321": {
+          "ultima_mensagem": "Quero marcar uma consulta",
+          "timestamp": "2025-07-24T10:12:00",
+          "contexto": [
+            {
+              "role": "user",
+              "content": "Quero marcar uma consulta"
+            },
+            {
+              "role": "assistant",
+              "content": "Claro! Qual dia seria melhor para você?"
+            }
+          ]
+        }
+      }
+    },
+    "clinica_norte": {
+      "nome": "Clínica Norte",
+      "telefone": "5521999999999",
+      "limite_mensal": 2000,
+      "mensagens_usadas": 892,
+      "chats": {
+        "5521977777777": {
+          "ultima_mensagem": "Vocês atendem plano de saúde?",
+          "timestamp": "2025-07-23T17:44:00",
+          "contexto": [
+            {
+              "role": "user",
+              "content": "Vocês atendem plano de saúde?"
+            },
+            {
+              "role": "assistant",
+              "content": "Sim! Atendemos Unimed, Amil e SulAmérica."
+            }
+          ]
+        }
+      }
+    }
+  }
+}
